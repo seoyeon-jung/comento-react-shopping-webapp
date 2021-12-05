@@ -1,4 +1,5 @@
 {
+  "hompage": "http://seoyeon-jung.github.io/comento-react-shopping-webapp",
   "name": "react-shopping-webapp",
   "version": "0.1.0",
   "private": true,
@@ -16,7 +17,9 @@
     "start": "cross-env NODE_PATH=src react-scripts start",
     "build": "cross-env NODE_PATH=src react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -37,6 +40,7 @@
     ]
   },
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "gh-pages": "^3.2.3"
   }
 }
