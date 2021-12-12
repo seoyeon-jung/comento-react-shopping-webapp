@@ -6,6 +6,7 @@ import Styles from './styles/Styles';
 import App from './App';
 import theme from './styles/theme';
 
+
 ReactDOM.render(
   <>
     <Styles />
