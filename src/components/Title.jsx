@@ -1,13 +1,11 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
-const Title = props => {
-    const { text } = props;
-    return <Title>
-        { text }
-    </Title>;
+const Title = (props) => {
+  const { text } = props;
+  return <TitleContainer>{text}</TitleContainer>;
 };
 
-const Title = styled.span`
-    font-size: 20px;
+const TitleContainer = styled.span`
+  font-size: 20px;
 `;

@@ -1,20 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Theme } from 'style-compoent';
+import React from "react";
+import ReactDOM from "react-dom";
+// import { Theme } from "style-compoent";
 
-import Styles from './styles/Styles';
-import App from './App';
-import theme from './styles/theme';
-
+// import Styles from './styles/Styles';
+import App from "./App";
+import theme from "./styles/theme";
 
 ReactDOM.render(
   <>
-    <Styles />
-    <Theme theme={theme}>
+    {/* <Styles /> */}
+    {/* <Theme theme={theme}> */}
       <App />
-    </Theme>
+    {/* </Theme> */}
   </>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
