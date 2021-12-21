@@ -1,2 +1,2 @@
 export const url =
-'https://ecd6b22f-4b63-4e73-97c2-ab4f8e7da87a.mock.pstmn.io/themes'https://go.postman.co/workspace/My-Workspace~cea756b5-2960-4725-8208-03e229bfd504/collection/18655058-ffd3783b-357a-4c67-9339-ff94c28fdc42';
+  "https://ecd6b22f-4b63-4e73-97c2-ab4f8e7da87a.mock.pstmn.io/themes";
